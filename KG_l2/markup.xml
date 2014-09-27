@@ -1,94 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<frame name="main">
-	<label
-		name = "test"
-		x = '500'
-		y = '10'
-		width = '100'
-		height = '15'
-		label = "Введите координаты точек"
-	/>
+<frame 
+    name="main" 
+    layout="BorderLayout"
+    autoEnable="true"
+    class="JFrame"
+    label="Лабораторная N2"
+    width = "640"
+    height = "480"
+    defaultCloseOperation="EXIT_ON_CLOSE"
+>
+    <label
+        name = "test"
+        x = '500'
+        y = '10'
+        width = '100'
+        height = '15'
+        label = "Введите координаты точек"
+    />
 	
-	<text
-		name = "x1"
-		x = '500'
-		y = '30'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "x1"
+        x = '500'
+        y = '30'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "y1"
-		x = '550'
-		y = '30'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "y1"
+        x = '550'
+        y = '30'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "x2"
-		x = '500'
-		y = '70'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "x2"
+        x = '500'
+        y = '70'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "y2"
-		x = '550'
-		y = '70'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "y2"
+        x = '550'
+        y = '70'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "x3"
-		x = '500'
-		y = '110'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "x3"
+        x = '500'
+        y = '110'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "y3"
-		x = '550'
-		y = '110'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "y3"
+        x = '550'
+        y = '110'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "x4"
-		x = '500'
-		y = '150'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "x4"
+        x = '500'
+        y = '150'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<text
-		name = "y4"
-		x = '550'
-		y = '150'
-		width = '30'
-		height = '15'
-		label = ""
-	/>
+    <text
+        name = "y4"
+        x = '550'
+        y = '150'
+        width = '30'
+        height = '15'
+        label = ""
+    />
 	
-	<button
-		name="enterCoordsBtn"
-		x = '520'
-		y = '170'
-		width = '80'
-		height = '30'
-		label = 'Enter'
-		mouseListener = 'mouseListener'
-	/>
+    <button
+        name="enterCoordsBtn"
+        x = '520'
+        y = '170'
+        width = '80'
+        height = '30'
+        label = 'Enter'
+        mouseListener = 'mouseListener'
+    />
 	
 </frame>

@@ -5,6 +5,7 @@
 package kg_l2;
 
 import haulmaunt.lyan.ui.markupexception.MissingMouseListenerException;
+import java.awt.BorderLayout;
 import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -92,8 +93,6 @@ public class KG_l2 {
     public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException, MissingMouseListenerException, Exception {
 
         ml = MarkupLoader.getMarkupLoaderInstance();
-
-        JFrame mp = new JFrame();
         
         mp1 = new MyPainter(
                 new Point(10, 200),
@@ -103,13 +102,14 @@ public class KG_l2 {
         
         mp1.setBounds(0, 0, 400, 300);
         ml.mouseListeners.put("mouseListener", mouseListener);
-        ml.loadMarkup("markup.xml", mp);
+        ml.loadMarkup("markup.xml");
+        
+        JFrame mp = (JFrame)ml.components.get("main");
+        
         mp.add(mp1);
         
+        mp.setLayout(new BorderLayout());
+        
         mp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mp.pack();
-        mp.setSize(640, 480);
-        mp.setVisible(true);
-        mp.setResizable(true);
     }
 }
