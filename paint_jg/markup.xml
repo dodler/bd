@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frame 
+    name="main" 
+    layout="BorderLayout"
+    autoEnable="true"
+    class="JFrame"
+    label="Кастом паинт"
+    width = "1280"
+    height = "720"
+	x="10"
+	y="20"
+    defaultCloseOperation="EXIT_ON_CLOSE"
+>
+    
+	
+</frame>
